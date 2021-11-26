@@ -1,0 +1,42 @@
+/* Splash Screen Media Queries */
+@media only screen and (max-width: 1200px){
+    .splash-container{
+        height: 45vh;
+    }
+    .splash-battleship-image{
+        top: 45vh;
+        left: 15vw;
+    }
+    .splash-title{
+        font-size: 9rem;
+    }
+}
+@media only screen and (max-width: 900px){
+    .splash-title{
+        font-size: 7rem;
+    }
+    .btn-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn-wrapper a{
+        width: 75%;
+    }
+    .btn-wrapper a:nth-child(2){
+        margin-top: 2.5%;
+        margin-left: -2.5%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .splash-title{
+        font-size: 4rem;
+    }
+    .splash-btn{
+        font-size: 1.5rem;
+    }
+    .container{
+        flex-direction: column;
+    }
+}
